@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-image: url("fotos/carson-arias-7Z03R1wOdmI-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 420px;
+    height: 500px;
+    background: transparent;
+    border: 2px solid #929292;
+    backdrop-filter: blur(20px) ;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+h1{
+    font-size: 36px;
+    text-align: center;
+    color: #fff;
+}
+.input_container{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    
+}
+.input_container input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.205);
+    border-radius: 10px;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 20px 45px 20px 20px;
+}
+
+.input_container input::placeholder{
+    color: #fff;
+}
+
+.input_container img{
+    position: absolute;
+    right: 24px;
+    top: 21%;
+    margin-top: 5px;
+}
+
+.input_container a{
+    font-size: 16px;
+    margin-top: 5px;
+    padding-top: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.input_container a:hover{
+    text-decoration: underline;
+}
+.submit_buttom{
+    width: 100%;
+    height: 50px;
+    margin-top: 25px;
+    background-color: rgb(250, 246, 44);
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    color: #000000;
+    cursor: pointer;
+    outline: none;
+}
+.submit_buttom:hover{
+    background-color: rgb(251, 255, 0);
+
+}
+.div_cadastro{
+    margin-top: 5px;
+}
+.div_cadastro a{
+    color: rgb(255, 255, 255);
+}
+.referencia{
+    position: absolute;
+    bottom: 20px;
+}
+.referencia a{
+    text-decoration: none;
+    color: rgb(241, 241, 241);
+}
+.referencia a:hover{
+    text-decoration: underline;
+    font-size: 19px;
+    transition-duration: .2s;
+}
